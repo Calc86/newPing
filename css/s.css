@@ -1,0 +1,46 @@
+div.info
+{
+    BORDER-RIGHT: #000000 1px solid;
+    BORDER-TOP: #000000 1px solid;
+    /*LEFT: '.($x+16).'px;*/
+    VISIBILITY: hidden;
+    BORDER-LEFT: #000000 1px solid;
+    BORDER-BOTTOM: #000000 1px solid;
+    POSITION: absolute;
+    /*TOP: '.($y+16).'px;*/
+    Z-INDEX: 7;
+    background-color: #cccccc;
+}
+
+img.lamp
+{
+    /*LEFT: '.($x).'px;*/
+    WIDTH: 15px;
+    POSITION: absolute;
+    /*TOP: '.($y).'px;*/
+    HEIGHT: 15px;
+    Z-INDEX: 6;
+}
+
+img.gray_lamp
+{
+    /*LEFT: '.($x).'px;*/
+    WIDTH: 15px;
+    POSITION: absolute;
+    /*TOP: '.($y).'px;*/
+    HEIGHT: 15px;
+    Z-INDEX: 5;
+    border: 0 0 0 0;
+}
+
+div.canvas
+{
+    position: relative;
+    height: 2100px;
+    width: 3200px;
+}
+
+input[type="checkbox"]
+{
+    border-color: black;
+}

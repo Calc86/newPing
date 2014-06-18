@@ -1,0 +1,3 @@
+#!/bin/bash
+cd /var/www/ping.xsrv.su/web
+php main.php 1> log 2> err
